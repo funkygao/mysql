@@ -11,6 +11,7 @@ package mysql
 const (
 	minProtocolVersion byte = 10
 	maxPacketSize           = 1<<24 - 1
+	maxAllowedPacket        = 1048576 // 1M
 	timeFormat              = "2006-01-02 15:04:05.999999"
 )
 
